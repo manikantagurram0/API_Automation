@@ -6,7 +6,7 @@ class Login_services(APIClient):
     def login(self):
         Url= Base_url+LoginUrl
         payload={
-        "username": "manikantagurram0@gmail.com", "password": "Mahdew#04"
+        "username": "xxxxxx@gmail.com", "password": "xxxxxxxxx"
     }
         session, response=self.post(Url, payload)
         return session,response
